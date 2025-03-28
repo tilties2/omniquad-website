@@ -55,18 +55,35 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=NJFXinkAAAAJ&hl=fr" target="_blank">Julien Mellet</a><sup>*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=NJFXinkAAAAJ&hl=fr" target="_blank">Julien Mellet</a><sup>1</sup><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="https://scholar.google.com/citations?user=RkF7ytMAAAAJ&hl=en" target="_blank">Andrea Berra</a><sup>*</sup>,</span>
+                  <a href="https://scholar.google.com/citations?user=RkF7ytMAAAAJ&hl=en" target="_blank">Andrea Berra</a><sup>2</sup><sup>*</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://scholar.google.com/citations?user=Eowf5xgAAAAJ&hl=it" target="_blank">Salvatore Marcellini</a><sup>4</sup></sup>,</span>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.de/citations?user=SfrC6voAAAAJ&hl=es" target="_blank">Miguel Ángel Trujillo Soto</a><sup>2</sup></sup>,</span>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.es/citations?user=4cTFfGwAAAAJ&hl=es" target="_blank">Guillermo Heredia</a><sup>3</sup></sup>,</span>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=KngG58sAAAAJ&hl=it" target="_blank">Fabio Ruggiero</a><sup>1</sup></sup>,</span>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.it/citations?user=n8qspvYAAAAJ&hl=it" target="_blank">Vincenzo Lippiello</a><sup>1</sup>
                   </span>
                   </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  <div class="is-size-6 publication-authors" style="font-size: 0.85em;">
+                    <span class="author-block">1, PRISMA Lab, Department of Electrical Engineering and Information Technology, University of Naples Federico II, Naples, Italy.</span><br>
+                    <span class="author-block">2, CATEC, Advanced Center for Aerospace Technologies, Seville, Spain.</span><br>
+                    <span class="author-block">3, GRVC, Robotics, Vision and Control Group, School of Engineering, University of Seville, Seville, Spain.</span><br>
+                    <span class="author-block">4, Leonardo Innovation Labs, Leonardo S.p.A., 00195 Rome, Italy.</span><br>
+                                    
+                    <span class="eql-cntrb" style="font-size: 0.75em;"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
+                  
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
@@ -224,18 +241,11 @@
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/omniquad_real.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
+          OmniQuad protype.
+        </h2>
      </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
   </div>
 </div>
 </div>
@@ -273,29 +283,37 @@
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Flight Experiments</h2>
+      <style>
+        #results-carousel video {
+          width: 100%;
+          height: auto;
+          max-height: 500px; /* Adjust as needed */
+        }
+        .carousel .item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      </style>
+      
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/omniquad_freeflight.mp4"
-            type="video/mp4">
+          <video poster="" id="video1" autoplay controls muted loop>
+            <source src="static/videos/omniquad_freeflight.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/omniquad_stick_exp.mp4"
-            type="video/mp4">
+          <video poster="" id="video2" autoplay controls muted loop>
+            <source src="static/videos/omniquad_stick_exp.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
+          <video poster="" id="video3" autoplay controls muted loop>
+            <source src="static/videos/video_flying_1.mp4" type="video/mp4">
           </video>
         </div>
       </div>
+      
     </div>
   </div>
 </section>
@@ -304,7 +322,7 @@
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -314,7 +332,7 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
 
 
