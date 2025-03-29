@@ -2,7 +2,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-
 .footer .icon-link {
     font-size: 25px;
     color: #000;
@@ -17,7 +16,6 @@ body {
   font-variant: small-caps;
 }
 
-
 .teaser .hero-body {
   padding-top: 0;
   padding-bottom: 3rem;
@@ -27,13 +25,11 @@ body {
   font-family: 'Google Sans', sans-serif;
 }
 
-
 .publication-title {
 }
 
 .publication-banner {
   max-height: parent;
-
 }
 
 .publication-banner video {
@@ -132,6 +128,3 @@ body {
 .eql-cntrb { 
   font-size: smaller;
 }
-
-
-
